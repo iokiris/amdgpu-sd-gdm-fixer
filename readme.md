@@ -45,10 +45,15 @@ amdgpu 0000:07:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0
 3. Run:
 
 ```bash
-sudo go run main.gp
+sudo ./amd64-amdgpu-gdm-fixer
 ```
 
 ---
+
+## Build from clone
+```bash
+GOOS=linux GOARCH=amd64 go build -o amd64-amdgpu-gdm-fixer
+```
 
 ## 📋 Requirements
 
